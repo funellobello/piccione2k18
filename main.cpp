@@ -76,6 +76,8 @@ int main() {
 			cout << "| BATTAGLIA VS PINUCCIO|" << endl;
 			cout << "| GIOCATORE    TRIMONE |" << endl;
 			cout << "|______________________|" << endl;
+			if (direzione == "sinistra" ||  direzione == "destra" ||  direzione == "su" ||  direzione == "giu"   ) {
+			cout << "Non puoi scappare."<<endl;
 		}
 
 	} while (direzione != "suca");
